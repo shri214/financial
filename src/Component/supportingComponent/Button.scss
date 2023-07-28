@@ -1,0 +1,24 @@
+@import '../../sass/vairable.scss';
+@import '../../sass/mixins.scss';
+
+.btn {
+  @include commonFM(5px 0px, 1.2rem);
+  background-color: $bgColor;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: $white;
+  padding: 10px 0px;
+  &:hover {
+    background-color: $white;
+    color: $textColor;
+  }
+}
+.bts {
+  background-color: $white;
+  color: $textColor;
+  &:hover {
+    background-color: $bgColor;
+    color: $white;
+  }
+}

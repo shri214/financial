@@ -1,0 +1,28 @@
+@import '../../sass/vairable.scss';
+
+.input-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  border: 1px solid $white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  padding: 13px;
+  box-shadow: $boxShadow;
+  & h1 {
+    font-size: 2rem;
+    margin: 10px 0px;
+    text-decoration: underline;
+    color: $textColor;
+  }
+  & p {
+    margin: 10px 0px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}

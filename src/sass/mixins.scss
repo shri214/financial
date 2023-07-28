@@ -1,0 +1,4 @@
+@mixin commonFM($m, $fs) {
+  margin: $m;
+  font-size: $fs;
+}
